@@ -74,17 +74,17 @@ extension LoanInfoConfirmViewController: OptionSelectViewControllerDelegate {
 }
 
 
-//extension LoanInfoConfirmViewController: UIViewControllerTransitioningDelegate {
-//    
-//    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
-//        
-//        return InnerPresentationController(presentedViewController: presented, presenting: presenting).handleFrame({ (_, _) -> CGRect in
-//            
-//            let width = UIScreen.main.bounds.width * 0.75
-//            let height = UIScreen.main.bounds.height * 0.6
-//            let x = (UIScreen.main.bounds.width - width) * 0.5
-//            let y = (UIScreen.main.bounds.height - height) * 0.5
-//                return CGRect(x: x, y: y, width: width, height: height)
-//        })
-//    }
-//}
+extension LoanInfoConfirmViewController: UIViewControllerTransitioningDelegate {
+    
+    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+        
+        return InnerPresentationController(presentedViewController: presented, presenting: presenting).handleFrame({ (_, _) -> CGRect in
+            
+            let width = UIScreen.main.bounds.width * 0.75
+            let height = UIScreen.main.bounds.height * 0.6
+            let x = (UIScreen.main.bounds.width - width) * 0.5
+            let y = (UIScreen.main.bounds.height - height) * 0.5
+                return CGRect(x: x, y: y, width: width, height: height)
+        })
+    }
+}
