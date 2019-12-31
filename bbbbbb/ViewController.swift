@@ -24,18 +24,18 @@ class ViewController: UIViewController {
         
         let str1 = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         let font = UIFont.systemFont(ofSize: 16)
-        print(str1.width(font: font))
-        print(str1.width(CGFloat.greatestFiniteMagnitude, font: font))
-        print(str1.width(100, font: font))
-        print(str1.height(0, font: font))
-        print(str1.height(50, font: font))
-        
-        print(str1.size(CGSize.zero, font: font))
-        print(str1.size(CGSize(width: CGFloat.greatestFiniteMagnitude, height: CGFloat.greatestFiniteMagnitude), font: font))
-        print(str1.size(CGSize(width: 50, height: CGFloat.greatestFiniteMagnitude), font: font))
-        
-        print(str1.caculateLabelWidthWithFontSize(16))
-        print(str1.caculateLabelHeight(withFontSize: 16, width: CGFloat.greatestFiniteMagnitude))
+//        print(str1.width(font: font))
+//        print(str1.width(CGFloat.greatestFiniteMagnitude, font: font))
+//        print(str1.width(100, font: font))
+//        print(str1.height(0, font: font))
+//        print(str1.height(50, font: font))
+//        
+//        print(str1.size(CGSize.zero, font: font))
+//        print(str1.size(CGSize(width: CGFloat.greatestFiniteMagnitude, height: CGFloat.greatestFiniteMagnitude), font: font))
+//        print(str1.size(CGSize(width: 50, height: CGFloat.greatestFiniteMagnitude), font: font))
+//        
+//        print(str1.caculateLabelWidthWithFontSize(16))
+//        print(str1.caculateLabelHeight(withFontSize: 16, width: CGFloat.greatestFiniteMagnitude))
     }
 
     @IBAction func cilisbtn(_ sender: UIButton) {
