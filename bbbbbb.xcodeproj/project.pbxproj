@@ -12,6 +12,10 @@
 		A864F80B2270B6B800A61F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A864F8092270B6B800A61F22 /* Main.storyboard */; };
 		A864F80D2270B6B900A61F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A864F80C2270B6B900A61F22 /* Assets.xcassets */; };
 		A864F8102270B6B900A61F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A864F80E2270B6B900A61F22 /* LaunchScreen.storyboard */; };
+		A864F81A2270B7A000A61F22 /* LoanInfoConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864F8172270B7A000A61F22 /* LoanInfoConfirmViewController.swift */; };
+		A864F81B2270B7A000A61F22 /* OptionSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864F8182270B7A000A61F22 /* OptionSelectViewController.swift */; };
+		A864F81C2270B7A000A61F22 /* InnerPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864F8192270B7A000A61F22 /* InnerPresentationController.swift */; };
+		A864F81E2270B7CE00A61F22 /* testbbbb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A864F81D2270B7CE00A61F22 /* testbbbb.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A864F80C2270B6B900A61F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A864F80F2270B6B900A61F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A864F8112270B6B900A61F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A864F8172270B7A000A61F22 /* LoanInfoConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanInfoConfirmViewController.swift; sourceTree = SOURCE_ROOT; };
+		A864F8182270B7A000A61F22 /* OptionSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionSelectViewController.swift; sourceTree = SOURCE_ROOT; };
+		A864F8192270B7A000A61F22 /* InnerPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerPresentationController.swift; sourceTree = SOURCE_ROOT; };
+		A864F81D2270B7CE00A61F22 /* testbbbb.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = testbbbb.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				A864F8052270B6B800A61F22 /* AppDelegate.swift */,
 				A864F8072270B6B800A61F22 /* ViewController.swift */,
+				A864F8192270B7A000A61F22 /* InnerPresentationController.swift */,
+				A864F8172270B7A000A61F22 /* LoanInfoConfirmViewController.swift */,
+				A864F8182270B7A000A61F22 /* OptionSelectViewController.swift */,
+				A864F81D2270B7CE00A61F22 /* testbbbb.storyboard */,
 				A864F8092270B6B800A61F22 /* Main.storyboard */,
 				A864F80C2270B6B900A61F22 /* Assets.xcassets */,
 				A864F80E2270B6B900A61F22 /* LaunchScreen.storyboard */,
@@ -124,6 +136,7 @@
 			files = (
 				A864F8102270B6B900A61F22 /* LaunchScreen.storyboard in Resources */,
 				A864F80D2270B6B900A61F22 /* Assets.xcassets in Resources */,
+				A864F81E2270B7CE00A61F22 /* testbbbb.storyboard in Resources */,
 				A864F80B2270B6B800A61F22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A864F81A2270B7A000A61F22 /* LoanInfoConfirmViewController.swift in Sources */,
+				A864F81C2270B7A000A61F22 /* InnerPresentationController.swift in Sources */,
 				A864F8082270B6B800A61F22 /* ViewController.swift in Sources */,
+				A864F81B2270B7A000A61F22 /* OptionSelectViewController.swift in Sources */,
 				A864F8062270B6B800A61F22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKV42655QB;
 				INFOPLIST_FILE = bbbbbb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKV42655QB;
 				INFOPLIST_FILE = bbbbbb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
