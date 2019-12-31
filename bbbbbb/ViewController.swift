@@ -166,8 +166,6 @@ class GradientShadowButton: UIButton {
     }
 }
 
-
-
 //
 //  EZMenuController.swift
 //  MenuItemKit-Swift
