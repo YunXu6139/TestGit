@@ -120,51 +120,51 @@ class PlayerViewController: AVPlayerViewController {
     }
 }
 
-class GradientShadowButton: UIButton {
-        
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        configureUI()
-    }
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        configureUI()
-    }
-    
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-        configureUI()
-    }
-    
-    func configureUI() {
-        addCornerRadius()
-        addShadow()
-        addGradientColor()
-    }
-    
-    func addCornerRadius() {
-//        self.layer.cornerRadius = 4.0
-//        self.layer.masksToBounds = true
-    }
-    
-    func addShadow() {
-        self.layer.shadowColor = Colors.brandingColor.cgColor
-        self.layer.shadowRadius = 16
-        self.layer.shadowOpacity = 0.2
-    }
-    
-    func addGradientColor() {
-        let graidnetLayer = CAGradientLayer()
-        let color1 = UIColor(0x2b77f8)
-        let color2 = UIColor(0x4388ff)
-        graidnetLayer.colors = [color1, color2]
-        graidnetLayer.startPoint = CGPoint(x: 0, y: 1)
-        graidnetLayer.endPoint = CGPoint(x: 1, y: 0)
-        graidnetLayer.frame = self.bounds
-        self.layer.insertSublayer(graidnetLayer, at: 0)
-    }
-}
+//class GradientShadowButton: UIButton {
+//        
+//    override func awakeFromNib() {
+//        super.awakeFromNib()
+//        configureUI()
+//    }
+//    
+//    override init(frame: CGRect) {
+//        super.init(frame: frame)
+//        configureUI()
+//    }
+//    
+//    required init?(coder: NSCoder) {
+//        super.init(coder: coder)
+//        configureUI()
+//    }
+//    
+//    func configureUI() {
+//        addCornerRadius()
+//        addShadow()
+//        addGradientColor()
+//    }
+//    
+//    func addCornerRadius() {
+////        self.layer.cornerRadius = 4.0
+////        self.layer.masksToBounds = true
+//    }
+//    
+//    func addShadow() {
+//        self.layer.shadowColor = Colors.brandingColor.cgColor
+//        self.layer.shadowRadius = 16
+//        self.layer.shadowOpacity = 0.2
+//    }
+//    
+//    func addGradientColor() {
+//        let graidnetLayer = CAGradientLayer()
+//        let color1 = UIColor(0x2b77f8)
+//        let color2 = UIColor(0x4388ff)
+//        graidnetLayer.colors = [color1, color2]
+//        graidnetLayer.startPoint = CGPoint(x: 0, y: 1)
+//        graidnetLayer.endPoint = CGPoint(x: 1, y: 0)
+//        graidnetLayer.frame = self.bounds
+//        self.layer.insertSublayer(graidnetLayer, at: 0)
+//    }
+//}
 
 public class EZMenuItem: NSObject {
 
