@@ -40,7 +40,9 @@ class ViewController: UIViewController {
 
     @IBAction func cilisbtn(_ sender: UIButton) {
         print("dian ji")
-
+//        if let vc = LoanInfoConfirmViewController.make() {
+//            self.navigationController?.pushViewController(vc, animated: true)
+//        }
         let item = EZMenuItem(title: "Translate", image: nil) { (item) in
             
         }
