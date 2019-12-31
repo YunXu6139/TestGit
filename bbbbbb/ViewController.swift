@@ -166,14 +166,6 @@ class GradientShadowButton: UIButton {
     }
 }
 
-//
-//  EZMenuController.swift
-//  MenuItemKit-Swift
-//
-//  Created by wangding on 2019/6/30.
-//  Copyright © 2019 lazyapps. All rights reserved.
-//
-
 public class EZMenuItem: NSObject {
 
     public var title: String?
